@@ -84,7 +84,7 @@ except ImportError:
 
 # LoRA and DORA modules
 sys.path.append("./scripts")
-from lora import LORA
+#from lora import LORA
 from dora import BNBDORA, HQQDORA, DORALayer, MagnitudeLayer
 
 class Logger:
