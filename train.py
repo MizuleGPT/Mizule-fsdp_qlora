@@ -84,8 +84,8 @@ except ImportError:
 
 # LoRA and DORA modules
 sys.path.append("./scripts")
-#from lora import LORA
-from dora import BNBDORA, HQQDORA, DORALayer, MagnitudeLayer
+from scripts.lora import LORA
+from scripts.dora import BNBDORA, HQQDORA, DORALayer, MagnitudeLayer
 
 class Logger:
     def __init__(self, args, log_to="stdout", project_name="fsdp_qlora", entity=None, group=None, name=None, rank=0):
